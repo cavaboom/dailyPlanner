@@ -1,12 +1,12 @@
 package Planner;
 
 public enum Type {
-    WORK(0),
-    PRIVATE(1);
+        WORK(0),
+        PRIVATE(1);
 
-    public final int value;
+        public final int value;
 
-    Type(final int value) {
-        this.value = value;
-    }
+        Type(final int value) {
+            this.value = value;
+        }
 }
